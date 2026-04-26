@@ -15,3 +15,5 @@ Route::get('/Beranda', [BerandaController::class, 'index']);
 Route::get('/Contac', [ContacController::class, 'index']);
 Route::get('/Produk', [ProdukController::class, 'index']);
 Route::get('/Riwayat', [RiwayatController::class, 'index']);
+
+// seeder migration update
